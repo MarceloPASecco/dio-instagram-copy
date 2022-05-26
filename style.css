@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    margin-top: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;  
+    color: grey;
+}
+.leftsideimg{
+    display: flex;
+    width: 80%;
+    margin-right: 0;
+    padding-right: 10px;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(133, 133, 133, 0.438);
+    padding: 10px 70px 10px 70px;
+    margin-top: 25px;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+
+.changeaccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgba(133, 133, 133, 0.438);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.strong{
+    flex-direction: row;
+    text-decoration: none;
+
+}
+
+.container{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.instagramlogo{
+    width: 160px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.perfil{
+    width: 90px;
+    height: 90px;
+    border-radius: 180px;
+    align-items: center;
+}
+
+.btncontinue{
+    color: white;
+    background-color: rgb(65, 128, 245);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 6px;
+    border-style: none;
+}
+
+.btncontinue:active{
+    color: white;
+    background-color: rgb(65, 128, 245, 0.6);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 6px;
+    box-shadow: none;
+}
+
+.btnremove{
+    padding-bottom: 20px;
+    text-decoration: none;
+    color:rgb(0, 140, 255);
+    font-size: 14px;
+}
+
+.btnremove:active{
+    padding-bottom: 20px;
+    text-decoration: none;
+    color:rgba(0, 140, 255, 0.6);
+    font-size: 14px;
+}
+
+.itsyou{
+    text-decoration: none;
+    color:rgb(145, 145, 145);
+    font-weight: 200;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+
+.link:active{
+    text-decoration: none;
+    color: rgb(0, 140, 255, 0.6);
+}
+
+.applebtn, .googlebtn {
+    width: 120x;
+    height: 40px;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+h6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.menumenu ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.menumenu ul a{
+   text-decoration: none;
+   color: gray;
+   font-size: 12px;
+   justify-content: center;
+   align-items: center;
+}
+
+.menumenu ul a:active{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.6);
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+ }
+
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    color: grey;
+}
+
+
+@media only screen and (max-width: 925px){
+    .left{
+        display: none;
+    }
+
+    body{
+        margin-left: 5%;
+    }
+
+    .part1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: 1px solid rgba(133, 133, 133, 0.438);
+        padding: 0;
+        margin-top: 25px;
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        position: relative;
+    }
+
+
+}
